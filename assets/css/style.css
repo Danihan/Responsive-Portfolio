@@ -1,0 +1,448 @@
+
+body {
+	background-image: url(../../assets/images/graybg.jpg);
+}
+
+img{
+    margin:20px;
+}
+
+img.dan{
+    width:200px;
+}
+
+header {
+	background-color: #ffffff;
+    width: 100%;
+    border-bottom-style: solid;
+	border-color: #cccccc; 
+	border-width: 3px
+}
+
+
+.topnav {
+	background-color: #ffffff;
+    overflow: hidden;
+    width: 1060px;
+	position: relative;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;  
+}
+.topnav a {
+	float: right;
+	color: #777777;
+	text-align: center;
+    padding: 30px 10px;
+    margin-right: 60px;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+.topnav a:hover {
+	background-color: #ddd;
+	color: black;
+}
+.topnav a:active {
+	background-color: #4aaaa5;
+	color: white;
+}
+
+.name {
+    background-color: #4aaaa5;
+	color: white;
+	float: left;
+	text-align: center;
+    font-size: 38px;
+    height: 60px;
+	width: 35%;
+	margin-left: 70px;
+	padding-top: 30px;
+	text-align: center;
+}
+
+#three {
+    height: 200px !important;
+    }
+
+.about {
+	width: 920px;
+    background-color: #ffffff;
+	position: relative;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px, 30px;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+form{
+    padding: 30px;
+    margin-top: 20px;
+}
+
+form.cform{
+    padding: 30px;
+    margin-top: 20px;
+    background-color: #ffffff;
+}
+
+.contact {
+	width: 720px;
+    background-color: #ffffff;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px, 30px;
+}
+
+.text-block1 {
+    position: absolute;
+    bottom: 520px;
+    right: 504px;
+    background-color: #4aaaa5;
+    color: white;
+}
+
+.text-block2 {
+    position: absolute;
+    bottom: 520px;
+    right: 266px;
+    background-color: #4aaaa5;
+    color: white;
+}
+
+.text-block3 {
+    position: absolute;
+    bottom: 275px;
+    right: 500px;
+    background-color: #4aaaa5;
+    color: white;
+}
+
+.text-block4 {
+    position: absolute;
+    bottom: 275px;
+    right: 266px;
+    background-color: #4aaaa5;
+    color: white;
+}
+
+.text-block5 {
+    position: absolute;
+    bottom: 35px;
+    right: 380px;
+    background-color: #4aaaa5;
+    color: white;
+}
+
+
+
+.port {
+	position: relative;
+}
+
+.aboutmec {
+    width: 700px;
+	text-align: left;
+	font-size: 32px;
+    color: #4aaaa5;
+    margin-left: 20px;
+    margin-bottom: 20px;
+	padding: 50px 20px;
+	border-bottom-style: solid;
+	border-color: #cccccc;
+	border-width: 3px;
+}
+
+.aboutme {
+    width: 860px;
+	text-align: left;
+	font-size: 32px;
+    color: #4aaaa5;
+    float:left;
+    clear:both;
+    margin-left: 20px;
+    margin-bottom: 20px;
+	padding: 50px 20px;
+	border-bottom-style: solid;
+	border-color: #cccccc;
+	border-width: 3px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    text-align:left;
+}
+
+h1 {
+	color: #4aaaa5;
+	background-color: #ffffff;
+	font-size: 40px;
+    float: left;
+}
+
+h2 {
+   position: absolute;
+   top: 150px;
+   left: 0;
+   width: 100%;
+   margin: 20 auto;
+   width: 250px;
+   height: 30px;
+   color: #FFFAF0;
+   background-color: #4aaaa5;
+   text-align: center;
+}
+
+.bio-text {
+	color: #777777;
+}
+
+.bio-footer {
+    background-color: #666666;
+    border-top-style: solid;
+	border-color: #4aaaa5;
+    border-width: 10px;
+    color: #ffffff;
+	bottom: 0;
+	left: 0;
+	height: 50px;
+	text-align: center;
+	padding-top: 20px;
+	clear: both;
+	position: relative;
+    width: 100%;
+}
+
+
+@media screen and (min-width: 980px) {
+
+.about {
+        width: 720px;
+        background-color: #ffffff;
+        position: relative;
+        text-align: center;
+        margin-right: auto;
+        margin-left: 215px;
+        height: 400px;
+        padding: 0px, 30px;
+    }
+
+    .aboutp {
+        width: 720px;
+        background-color: #ffffff;
+        position: relative;
+        text-align: center;
+        margin-right: auto;
+        margin-left: 215px;
+        height: 600px;
+        padding: 0px, 30px;
+    }
+
+    .aboutme {
+        width: 660px;
+        text-align: left;
+        font-size: 32px;
+        color: #4aaaa5;
+        float:left;
+        clear:both;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        padding: 50px 20px;
+        border-bottom-style: solid;
+        border-color: #cccccc;
+        border-width: 3px;
+    }
+
+    img.dan{
+        width:200px;
+        float:left;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+
+    .about {
+        width: 720px;
+        background-color: #ffffff;
+        position: relative;
+        text-align: center;
+        margin-right: auto;
+        margin-left: 215px;
+        height: 500px;
+        padding: 0px, 30px;
+    }
+
+    .aboutp {
+        width: 720px;
+        background-color: #ffffff;
+        position: relative;
+        text-align: center;
+        margin-right: auto;
+        margin-left: 215px;
+        height: 600px;
+        padding: 0px, 30px;
+    }
+
+    .aboutme {
+        width: 660px;
+        text-align: left;
+        font-size: 32px;
+        color: #4aaaa5;
+        float:left;
+        clear:both;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        padding: 50px 20px;
+        border-bottom-style: solid;
+        border-color: #cccccc;
+        border-width: 3px;
+    }
+
+    img.dan{
+        width:200px;
+        float:left;
+    }
+
+    
+    p.bio{
+        width: 600px;
+        float:left;
+    }
+
+    .text-block5 {
+        position: absolute;
+        bottom: -1270px;
+        right: -1266px;
+        background-color: #4aaaa5;
+        color: white;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+
+    .about {
+        width: 720px;
+        background-color: #ffffff;
+        position: relative;
+        text-align: center;
+        margin-right: auto;
+        margin-left: 70px;
+        height: 800px;
+        padding: 0px, 30px;
+    }
+
+    .aboutp {
+        width: 720px;
+        background-color: #ffffff;
+        position: relative;
+        text-align: center;
+        margin-right: auto;
+        margin-left: 70px;
+        height: 2400px;
+        padding: 0px, 30px;
+    }
+
+    .aboutme {
+        width: 660px;
+        text-align: left;
+        font-size: 32px;
+        color: #4aaaa5;
+        float:left;
+        clear:both;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        padding: 50px 20px;
+        border-bottom-style: solid;
+        border-color: #cccccc;
+        border-width: 3px;
+    }
+
+    img.dan{
+        width:400px;
+        float:left;
+    }
+
+    p.bio{
+        width: 400px;
+        float:left;
+    }
+
+    .text-block1 {
+        position: absolute;
+        bottom: 1850px;
+        right: 266px;
+        background-color: #4aaaa5;
+        color: white;
+    }
+    
+    .text-block2 {
+        position: absolute;
+        bottom: 1400px;
+        right: 266px;
+        background-color: #4aaaa5;
+        color: white;
+    }
+    
+    .text-block3 {
+        position: absolute;
+        bottom: 950px;
+        right: 266px;
+        background-color: #4aaaa5;
+        color: white;
+    }
+    
+    .text-block4 {
+        position: absolute;
+        bottom: 530px;
+        right: 266px;
+        background-color: #4aaaa5;
+        color: white;
+    }
+    
+    .text-block5 {
+        position: absolute;
+        bottom: 70px;
+        right: 266px;
+        background-color: #4aaaa5;
+        color: white;
+    }
+
+    .aboutmec {
+        width: 500px;
+        text-align: left;
+        font-size: 32px;
+        color: #4aaaa5;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        padding: 50px 20px;
+        border-bottom-style: solid;
+        border-color: #cccccc;
+        border-width: 3px;
+    }
+
+    .contact {
+        width: 520px;
+        background-color: #ffffff;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px, 30px;
+    }
+}
+
